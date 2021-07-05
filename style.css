@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 45px;
@@ -7,15 +8,33 @@ h1{
     font-style: normal;
     text-align: left;
     text-transform: capitalize;
+    line-height: 60px;
 }
-p{
-    font-size: 18px;
+h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 32 px;
+}
+h5{
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     text-align: left;
+    line-height: 25px;
+}
+p{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 25px;
 }
 .container-fluid{
     width: 100%;
+    margin: 0;
 }
 .container{
     width: 1140px;
@@ -28,6 +47,7 @@ p{
 .intro-left{
     width: 60%;
     padding: 80px 75px 80px 35px;
+    vertical-align: middle;
 }
 .btn{
     padding: 8px 30px;
@@ -43,7 +63,56 @@ p{
 .intro-right{
     width: 40%;
     padding: 80px 0px 80px;
+    vertical-align: middle;
+    text-align: right;
 }
 .color-text{
     color: orange;
+}
+.owner-section-bg{
+    background-image: url(images/shapes/Bg-Home-Section-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.owner{
+    display: flex;
+    height: auto;
+}
+.owner-left{
+    width: 50%;
+}
+.owner-right{
+    width: 50%;
+    padding: 15% 2% 15% 8%;
+}
+.recipies{
+    display: flex;
+}
+.recipie-intro{
+    padding: 2% 25%;
+}   
+.recipie-item{
+    width: 30%;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 15px black;
+    text-align: center;
+    border-radius: 15px;
+}
+.recipie-item img{
+    border-radius: 15px;
+}
+.social-presence{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    margin: 100px 0px;
+    padding: 0 10%;
+}
+.social-presence-item{
+    width: 30%;
+}
+.social-presence-item h1{
+    margin-bottom: -20px;
 }
