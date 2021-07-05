@@ -1,0 +1,49 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+    text-transform: capitalize;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.intro{
+    height: 80vh;
+    display: flex;
+}
+.intro-left{
+    width: 60%;
+    padding: 80px 75px 80px 35px;
+}
+.btn{
+    padding: 8px 30px;
+    border: 2px solid red;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.intro-right{
+    width: 40%;
+    padding: 80px 0px 80px;
+}
+.color-text{
+    color: orange;
+}
