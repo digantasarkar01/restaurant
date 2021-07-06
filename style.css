@@ -77,7 +77,7 @@ p{
 }
 
 .owner-section-bg{
-    background-image: url(images/shapes/Bg-Home-Section-2.png);
+    background-image: url(images/shapes/bg-home.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -85,11 +85,16 @@ p{
 
 .owner{
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 .owner-left{
     width: 50%;
+    position: relative;
+}
+.owner-left img{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
 }
 .owner-right{
     width: 50%;
