@@ -34,50 +34,57 @@ p{
 }
 .container-fluid{
     width: 100%;
-    margin: 0;
 }
 .container{
     width: 1140px;
     margin: 0 auto;
 }
 .intro{
-    height: 80vh;
     display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .intro-left{
     width: 60%;
-    padding: 80px 75px 80px 35px;
-    vertical-align: middle;
+    padding-right: 100px;
+
+}
+.intro-left img{
 }
 .btn{
     padding: 8px 30px;
-    border: 2px solid red;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 14px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
+    background-image: linear-gradient(to right, red, orange);
+}
+.btn:hover{
+    
+    background-image: linear-gradient(to right, orange, red);
+    padding: 8px 35px;
 }
 .intro-right{
     width: 40%;
-    padding: 80px 0px 80px;
-    vertical-align: middle;
     text-align: right;
 }
 .color-text{
     color: orange;
 }
+
 .owner-section-bg{
     background-image: url(images/shapes/Bg-Home-Section-2.png);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    background-size: cover;
 }
+
 .owner{
     display: flex;
-    height: auto;
 }
 .owner-left{
     width: 50%;
@@ -106,13 +113,37 @@ p{
 .social-presence{
     display: flex;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px black;
+    box-shadow: 1px 1px 10px #0000004a;
     margin: 100px 0px;
-    padding: 0 10%;
+    padding: 0% 5%;
+    justify-content: center;
+
 }
 .social-presence-item{
     width: 30%;
 }
 .social-presence-item h1{
     margin-bottom: -20px;
+    text-align: center;
+}
+.social-presence-item h5{
+    text-align: center;
+}
+
+.footer-section{
+    background-color: black;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer h3{
+    color: white;
+    text-align: center;
+}
+.footer h5{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+
 }
