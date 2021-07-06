@@ -85,6 +85,8 @@ p{
 
 .owner{
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .owner-left{
     width: 50%;
